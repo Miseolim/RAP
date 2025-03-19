@@ -1,3 +1,4 @@
+```ABAP
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'RAP SCHEDULE root view'
 @Metadata.ignorePropagatedAnnotations: true
