@@ -1,3 +1,5 @@
+```
+abap
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'RAP Schedule projection view'
 @Metadata.ignorePropagatedAnnotations: true
