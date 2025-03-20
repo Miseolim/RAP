@@ -15,14 +15,14 @@ define root view entity ZVCDS_ROOT_DOCU21
     matkl as Matkl,
 
     @Semantics.quantity.unitOfMeasure: 'Meins'
-    menge as Menge,
+    menge as Menge, //수량
 
-    meins as Meins,
+    meins as Meins, //(단위)
 
-    @Semantics.amount.currencyCode: 'Waers'
-    wrbtr as Wrbtr,
+    @Semantics.amount.currencyCode: 'Waers' //통화 코드
+    wrbtr as Wrbtr, //금액
 
-    waers as Waers,
+    waers as Waers, 
     lvorm as Lvorm
 
   }
